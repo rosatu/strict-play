@@ -11,15 +11,16 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
             <TodoApp />
           <p>
-            This is our playground. Click the ball to play.
+            Strawberry Fields Forever...
           </p>
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
+            class="hidden"
           >
-            Learn React
+            more stuff
           </a>
         </header>
       </div>
