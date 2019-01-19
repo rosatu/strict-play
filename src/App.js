@@ -13,15 +13,6 @@ class App extends Component {
           <p>
             Strawberry Fields Forever...
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hidden"
-          >
-            more stuff
-          </a>
         </header>
       </div>
     );
