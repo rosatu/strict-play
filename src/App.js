@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoApp from './TodoApp.js'
 
 class App extends Component {
   render() {
@@ -8,8 +9,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+            <TodoApp />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            This is our playground. Click the ball to play.
           </p>
           <a
             className="App-link"
